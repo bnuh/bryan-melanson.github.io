@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/bnuh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bnuh.github.io
+  * I am bnuh (https://keybase.io/bnuh) on keybase.
+  * I have a public key with fingerprint 098A A29F F578 CAAC 3377  0942 33AF FF1A 4525 1167
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101acbf13b6fab15da974070766aeff289f91191868eacd9cc6aa297d359ea256690a",
+            "fingerprint": "098aa29ff578caac3377094233afff1a45251167",
+            "host": "keybase.io",
+            "key_id": "33afff1a45251167",
+            "kid": "0101acbf13b6fab15da974070766aeff289f91191868eacd9cc6aa297d359ea256690a",
+            "uid": "08726afd3fdaf19363fbfb806d5f0919",
+            "username": "bnuh"
+        },
+        "revoke": {
+            "sig_ids": [
+                "a57538991baf0a2719749254e52dc926603b1a473cc7e0b4a6feaadaa442a5750f"
+            ]
+        },
+        "service": {
+            "hostname": "bnuh.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1488984848,
+    "expire_in": 157680000,
+    "prev": "1a7210e437d1be0df3a950704689b9f532a7b64c916a7ebba618fe34efe8245b",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.64
+Comment: https://keybase.io/crypto
+
+yMJpAnicrVJZaBRJGJ7xNqsyXohKopQHKKPb1V1d1TXsPvigyJqoeEZHHau6q5I2
+cXrs6RmNmpWQF5Vl9yFeL0HRgHi+qOAB8SC4K8kYxUUTDEoeJEF28QIx3tVRwYd9
+3KqHoqq+7/u//6tqGTkwUhT9+EpsOPDoaTTaev1lLlJ+bXJsB+CeUwMSO0CV6F9E
+tSOyQarKdUACaFCDzOYSGhxLxqHpMEqQRjSCMRNS6haVFEIKLWwJZjvUtjFjOiWO
+YVLBdBNjqjEQB9JNVwg/47vpIJSlVoiS0iSWzZhtGIRoFOmGwaSUkCFTNyHERBEr
+vWzIUOY4y4q5rqfO1CbVb+8/8P+z79wXOYvomEnHkA6TkBrYkFxyS8OOKTUKaQjM
+Cj/NNguF5ulcJaiNA1/kvSoRZpp1K5ThLEgkATOJaViUQs6kxnQClS+qm0iYumNT
+HWPN4KohYtg2ERpHDEvBmMMYQnrI1SRYr7RVtbxr94uHCX1XeW6FG1Tm+JekMr4X
+eLZXre4qgyCTTYS+gppMCN4qeOqrTIq7aUe9kGLkhZ91vTRIQIW0AzfUhciyqIXU
+jAOxLeP6IuWGCJNgS1MjrCPyShIyokNNIIM4kAvNkQajpkodYYtyKk1DZ4RjZFOI
+GRGcMwwtKQwkpLB0ZHIQNrYl7YUllU9WoTRVdmkW5HwBam9cWzcoEi2KDBk8IPy6
+kaLhsW8f+mH30A+jR8V2r8n1nsZrXqDp2483nd3z18CJ3rTyzkIeHpl1vP3+u6mL
+Gx83zGvZt6u4s+5y46nWjt/nN3clV9T3lP5yaV7Z0lhhws//7lpQ19SKejrPl9T5
+V1a/X/Su99nrkuSInR9+a9o4vbQnro+0bw7q0J911R4uVN+4PezFp737R8fa4JX9
+LSuX9I26u6fk9cmDs/r+WflT8RM0aeKdsnNlD+/tLWxubrk3uGsO9zJjayJ/LDtx
+MjEs05xq/vXPYPySN40XXm778fqx8u5V9ckHbzuGtJ1pW34JFJ4XlzYcHLBpRv3a
+7jHjLrYXP5/9w9P20weivU1TGmtmNmy/Za//e0bfQnr1UPLq4aPxz5wZYkg=
+=bhhY
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bnuh
+
+==================================================================

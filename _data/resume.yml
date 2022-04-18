@@ -1,0 +1,124 @@
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+basics:
+  name: "Bryan Melanson"
+  label: "Embedded Developer"
+  picture: "assets/img/profile.jpg"
+  email: "bryan@bryanmelanson.com"
+  phone: "(709) 749-1273"
+  website: "https://bryanmelanson.com"
+  summary: >
+    B.Eng in Computer Engineering from Memorial Univeristy of Newfoundland with a strong background in embedded development and a unique skill set in the creative arts. Practical experience in robotics, data science and firmware development including Mission Control design of Killick-1 GNSS CubeSat set to launch in 2021, and as well as the Mysa Smart Baseboard Thermostat, Smart Infloor Thermostat and Smart Air Conditioner. Skills include RTOS, I2C, NFC, C/C++, GDB, Logic Analyzers, Rust, Python and Bluetooth.
+  location:
+    address: "30 Cox Marsh Road"
+    postalCode: "A1K 1A2"
+    city: "Torbay"
+    countryCode: "CA"
+    region: "Newfoundland"
+  profiles:
+    - network: "LinkedIn"
+      username: "bryanmelanson"
+      url: "https://linkedin.com/in/bryanmelanson"
+work:
+  - company: "Mysa"
+    position: "Embedded Developer"
+    website: "https://getmysa.com"
+    startDate: "2019-01-04"
+    endDate: ""
+    summary: >
+      Mysa is the first ever high-voltage thermostat that is truly smart. It is fully featured for the conscientious consumer: smart learning features which amount to approximately 15% savings on energy bills, remote access to control their home’s heating through their smartphone from anywhere in the world, and integration with popular smart home platforms (Amazon Alexa, Google Home, and Apple Homekit)
+    highlights:
+      - "Designing, developing, coding, testing and debugging firmware for embedded devices and systems from requirements to production and commercial deployment."
+      - "Working with the hardware team to specify and develop new products from prototype through to production."
+      - "Working with the software team to develop and document API and interface specifications for embedded devices."
+      - "Integrating and validating new product designs."
+      - "Supporting software QA and optimizing I​/​O performance."
+  - company: "SIA"
+    position: "Software Developer"
+    website: ""
+    startDate: "2019-05-01"
+    endDate: "2020-05-01"
+    summary: >
+      SIA was a startup that aimed to develop customized real-time location system software solutions for health care organizations to track assets, increase visibility, identify risks and solve work flow problems in clinical environments using Bluetooth.
+    highlights:
+      - "Designed MVP including web architecture and hardware solutions."
+      - "SIA was chosen for Propel ICT Incite Accelerator Program."
+  - company: "Nokia Inc."
+    position: "IP/TAC 2LS Support Engineer (Co-Op)"
+    website: "https://nokia.com"
+    startDate: "2016-07-01"
+    endDate: "2016-12-01"
+    summary: >
+      Remote Technical Support for 5620 SAM Network Services Platform and associated network elements. Debugging complex product installations on CentOS/Solaris/RHEL systems, resolving complicated network problems using Open Stack, Cloud Stack and VMWare. Scripting at a Unix/Linux level in bash and Python. Interfacing, developing and maintaining strong relationships with regional TEC (Technical Expertise Centers), Solution Teams and Product Business Units.
+  - company: "Nalcor Energy"
+    position: "Software Developer (Co-Op)"
+    website: "https://nalcorenergy.com/"
+    startDate: "2015-12-01"
+    endDate: "2016-05-01"
+    summary: >
+      Nalcor Energy is a provincial energy corporation which is headquartered in St. John's, Newfoundland and Labrador. A provincial Crown corporation under the Government of Newfoundland and Labrador, Nalcor Energy was created in 2007 to manage the province's energy resources.
+    highlights:
+      - "Developed GIS application development for analyzing prices and visualizing correlations within the New York energy market."
+      - "Initiated migration of heat map functionality to web application using R and Google Maps."
+      - "Scripted the mapping of all major North American energy markets."
+volunteer:
+  - organization: "Killick-1 CubeSat"
+    position: "Software Developer"
+    website: "https://www.c-core.ca/2018/05/31/killick-1/"
+    startDate: "2019-05-01"
+    endDate: "2020-05-01"
+    summary: "The Killick-1, Newfoundland and Labrador’s first Earth observation satellite, will use Global Navigation Satellite System (GNSS) reflectometry to collect measurements such as sea ice thickness and wave height from space. This involves receiving direct and reflected signals from GPS satellites to measure geophysical features of the ocean such as temperature, salinity and wave height."
+    highlights:
+      - "Worked with team to design internal device communication"
+      - "Determining system requirements and selecting hardware"
+      - "Approved to launch from CSA flight to International Space Station"
+  - organization: "MUN Sailbot"
+    position: "Software Developer"
+    website: "https://munsailbot.blogspot.com/"
+    startDate: "2016-06-01"
+    endDate: "2018-06-01"
+    summary: "MUN Sailbot is an Engineering and Computer Science University student team that designs and builds autonomous 2 meter sailboats to compete in the annual International Robotic Sailing Regatta."
+    highlights:
+      - "Created algorithms for wind and GPS based navigation."
+      - "Developed hardware solutions for sensor, motor, and control."
+education:
+  - institution: "Memorial University of Newfoundland"
+    area: "Computer Engineering"
+    studyType: "Bachelor"
+    startDate: "2015-09-01"
+    endDate: "2020-05-31"
+    gpa: "4.0"
+    courses:
+      - "Real Time Operating Systems"
+      - "Embedded Systems"
+      - "Software Design"
+      - "Data Structures"
+      - "Image Processing"
+      - "Computer Security"
+skills:
+  - name: "Embedded Development"
+    level: "Intermediate"
+    keywords:
+      - "C"
+      - "C++"
+      - "FreeRTOS"
+      - "I2C"
+      - "SPI"
+      - "UART"
+      - "Oscilloscopes"
+      - "ESP32"
+      - "JTAG"
+      - "Bluetooth"
+      - "NFC"
+      - "Make"
+      - "CMake"
+      - "Logic Analyzers"
+      - "Rust"
+languages:
+  - language: "English"
+    fluency: "Native speaker"
+  - language: "French"
+    fluency: "professional-working-proficiency"
+  - language: "Japanese"
+    fluency: "elementary-proficiency"
