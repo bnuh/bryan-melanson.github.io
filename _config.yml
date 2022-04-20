@@ -278,6 +278,10 @@ collections:
   study:
     permalink:         /study/:path/
     output:            true
+  
+  music:
+    permalink:         /music/:path/
+    output:            true
 
 
 
