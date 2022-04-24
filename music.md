@@ -1,5 +1,5 @@
 ---
-layout: study_guides
+layout: albums
 title: 🥑
 description: >
   

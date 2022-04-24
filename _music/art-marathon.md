@@ -5,6 +5,7 @@ caption:
 image: 
   path: /assets/img/albums/24hour.jpg
 description: > 
+  2008
 date: '14-04-2022'
 ---
 

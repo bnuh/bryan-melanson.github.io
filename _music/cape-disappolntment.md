@@ -3,6 +3,7 @@ layout: study_guide
 title: 'Cape Disappointment'
 caption: 
 description: > 
+  2009
 image: 
   path: /assets/img/albums/cape.jpg
 date: '14-04-2022'

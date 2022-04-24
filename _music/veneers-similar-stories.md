@@ -3,6 +3,7 @@ layout: study_guide
 title: 'Veneers - Similar Stories'
 caption: 
 description: > 
+  2011
 image: 
   path: /assets/img/albums/veneers.jpg
 date: '14-04-2022'

@@ -2,7 +2,8 @@
 layout: study_guide
 title: 'Errand Boy'
 caption: 
-description: >
+description: > 
+  2007
 image: 
   path: /assets/img/albums/errandboy.jpg
 date: '14-04-2022'

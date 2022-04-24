@@ -3,6 +3,7 @@ layout: study_guide
 title: 'Bachelor of Commerce'
 caption: 
 description: > 
+  2006
 image: 
   path: /assets/img/albums/bachelor.jpg
 date: '14-04-2022'
