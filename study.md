@@ -5,6 +5,7 @@ description: >
   Study guides
 hide_description: true
 show_collection: study
+grouped: true
 ---
 
 ```c
