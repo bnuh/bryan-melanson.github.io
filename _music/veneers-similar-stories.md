@@ -1,7 +1,7 @@
 ---
-layout: study_guide
+layout: album
 title: 'Veneers - Similar Stories'
-caption: 
+caption:
 description: > 
   2011
 image: 

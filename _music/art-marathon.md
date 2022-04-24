@@ -1,5 +1,5 @@
 ---
-layout: study_guide
+layout: album
 title: 'At the 24 Hour Art Marathon'
 caption: 
 image: 

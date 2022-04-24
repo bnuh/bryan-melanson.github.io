@@ -1,5 +1,5 @@
 ---
-layout: study_guide
+layout: album
 title: 'Bachelor of Commerce'
 caption: 
 description: > 

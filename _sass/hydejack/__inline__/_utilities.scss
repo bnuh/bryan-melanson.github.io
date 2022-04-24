@@ -38,6 +38,7 @@
 .sixteen-nine { @include aspect-ratio(16, 9); }
 .sixteen-ten { @include aspect-ratio(16, 10); }
 .four-three { @include aspect-ratio(4, 3); }
+.one-one { @include aspect-ratio(1, 1); }
 
 .sr-only {
   display: none; 

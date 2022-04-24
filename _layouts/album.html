@@ -46,7 +46,20 @@ layout: base
       </span>
     </p>
 
-    {% include components/message.html text=project.description hide=page.hide_description property="description" alt="" %}
+    {% assign screenshot = project.screenshot | default:project.image %}
+    <div class="img-wrapper lead aspect-ratio one-one {% unless screenshot %}fallback-img{% endunless %}">
+      {% if screenshot %}
+        {% include_cached components/hy-img.html
+          img=screenshot
+          sizes="(min-width: 90em) 48rem, (min-width: 54em) 42rem, (min-width: 42em) 38rem, 100vw"
+          alt=project.title
+          property="image"
+          width=486
+          height=486
+        %}
+      {% endif %}
+    </div>
+
     {% if project.caption %}<meta property="disambiguatingDescription" content="{{ project.caption }}"/>{% endif %}
   </header>
 
@@ -64,7 +77,7 @@ layout: base
   {% when 'newsletter' %}
     {% include if-non-null try="pro/newsletter.html" %}
   {% when 'other' %}
-    {% include if-non-null try="pro/other-study-guides.html" %}
+    {% include if-non-null try="pro/other-albums.html" %}
   {% when 'comments' %}
     {% include body/comments.html %}
   {% else %}

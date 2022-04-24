@@ -1,5 +1,5 @@
 ---
-layout: study_guide
+layout: album
 title: 'Errand Boy'
 caption: 
 description: > 
