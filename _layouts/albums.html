@@ -5,7 +5,7 @@ layout: page
 
 {{ content }}
 
-{% assign show_collection = page.show_collection | default:"study" %}
+{% assign show_collection = page.show_collection | default:"music" %}
 {% assign empty_col = '' | split:'.' %}
 {% assign ordered_projects = site[show_collection] | default:empty_col | sort:"date" | reverse %}
 {% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
