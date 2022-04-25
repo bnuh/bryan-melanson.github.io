@@ -2,7 +2,8 @@
 layout: study_guide
 title: 'Digital Systems'
 caption: Memorial University ENG5865
-description: > 
+description: >
+term: 5
 date: '14-04-2022'
 ---
 
@@ -65,10 +66,7 @@ ROMs were intended as memory devices (such as cartridges) but could be used for 
 
 Programmable Logic Arrays (PLA) are based on the notion that any logic function is a combination of product terms OR'd together.
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/pla.png">
-</p>
-
+![Programmable Logic Array](/assets/img/study-guides/digital-systems/pla.png){:.centered}
 ### FPGAs
 
 Field Programmable Gate Arrays are flexible programmable logic for larger designs. Complicated to program, but offer large capacities and flexibility.
@@ -121,57 +119,39 @@ Transport will delay the signals without rejecting.
 
 **Architecture** is a description of the internals.
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/vhdl.png">
-</p>
+![VHDL](/assets/img/study-guides/digital-systems/vhdl.png){:.centered}
 
 The devices can be reused in separate files by declaring it as a component and instantiating each element individually, assigning pins.
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/vhdl2.png">
-</p>
+![VHDL2](/assets/img/study-guides/digital-systems/vhdl2.png){:.centered}
 
 ### Sequential Statements
 
 The **process** statement will monitor a signal using a sensitivity list and trigger a sequence of lines to be completed in order.
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/process.png">
-</p>
+![process](/assets/img/study-guides/digital-systems/process.png){:.centered}
 
 ### Flip Flops
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/flipflops.png">
-</p>
+![flipflops](/assets/img/study-guides/digital-systems/flipflops.png){:.centered}
 
 ### Conditional Assignments
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/condition.png">
-</p>
+![condition](/assets/img/study-guides/digital-systems/condition.png){:.centered}
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/case.png">
-</p>
+![case](/assets/img/study-guides/digital-systems/case.png){:.centered}
 
 ### User Defined Types
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/types.png">
-</p>
+![types](/assets/img/study-guides/digital-systems/types.png){:.centered}
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/shifts.png">
-</p>
+![shifts](/assets/img/study-guides/digital-systems/shifts.png){:.centered}
 
 ## Advanced Design
 
 ### Logic Minimization
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/logic.png">
-</p>
+![logic](/assets/img/study-guides/digital-systems/logic.png){:.centered}
 
 $$y - A'BC + AB'C + ABC' + ABC$$ can be reduced to **minterms**.  
 
@@ -183,23 +163,17 @@ $$\sum m(3,5,6,7) + \sum d(0,3)$$
 
 ### Quine McCluskey Method
 
-This reduces the SSOP form to a minimum sum of products by eliminating as many literals as possible to produce prime implicants, and then creating a chart of implicants to be OR'd to implement the original function. 
+This reduces the SSOP form to a minimum sum of products by eliminating as many literals as possible to produce prime implicants, and then creating a chart of implicants to be OR'd to implement the original function.
 
 Recall $$XY + XY' = X$$ - use this to combine minterms if they differ in one minterm. Terms are then represented as binary, for example $$AB'CD' = 1010$$, so $$AB'CD' + AB'CD = AB'C$$ or $$101-$$.
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/quine.png">
-</p>
+![quine](/assets/img/study-guides/digital-systems/quine.png){:.centered}
 
 The numbers which don't reduce to the following column or are redundant are \textit{prime implicants}. In this case, the prime implicants are $$0-01$$, $$01-1$$, $$011-$$, $$-00-$$, $$-0-0$$, and $$--10$$.
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/implicants.png">
-</p>
+![implicants](/assets/img/study-guides/digital-systems/implicants.png){:.centered}
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/implicants2.png">
-</p>
+![implicants2](/assets/img/study-guides/digital-systems/implicants2.png){:.centered}
 
 Choose the values with a single X in its column, then draw a horizontal line through the row. Any intersections, draw a vertical line. Continue until all X are crossed out, choosing values which will cover off as much as possible.
 
@@ -219,15 +193,15 @@ A circuit goes 1 when it should be constant 0
 
 When the circuit should transition from 0 to 1 or 1 to 0, but transitions three or more times
 
+![hazard](/assets/img/study-guides/digital-systems/hazard.png){:.centered}
+
 <p align="center">
     <img src="/assets/img/study-guides/digital-systems/hazard.png">
 </p>
 
 Select inputs to test specific port errors:
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/test.png">
-</p>
+![test](/assets/img/study-guides/digital-systems/test.png){:.centered}
 
 ### Scan Testing
 
@@ -245,9 +219,7 @@ AMBA has four interface protocols, *AXI* (Advanced Extemsible Interface), *AHB* 
 
 **AXI4-Lite** is a subset of AXI4 used for simpler control register style interfaces. All transactions are burst legnths of 1, data accesses are the same size and width as the data bus, and exclusive access is not supported.
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/axi.png">
-</p>
+![axi](/assets/img/study-guides/digital-systems/axi.png){:.centered}
 
 **Channel** is a collection of signals associated to a VALID signal.
 
@@ -269,9 +241,7 @@ An AXI4 handshake is as follows:
 * If the transaction has more than 1 transfer, next data is sent, otherwise VALID is removed
 * If slave cannot accept, READY is removed to pause
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/handshake.png">
-</p>
+![handshake](/assets/img/study-guides/digital-systems/handshake.png){:.centered}
 
 AXI4 and variants all have 5 basic signalling channels:
 
@@ -281,19 +251,13 @@ AXI4 and variants all have 5 basic signalling channels:
 * Write data
 * Write response (Slave to Master)
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/axi-sm.png">
-</p>
+![axi-sm](/assets/img/study-guides/digital-systems/axi-sm.png){:.centered}
 
 For AXI-Lite, only 1 data tranfer per transaction.
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/axi_read.png">
-</p>
+![axi-sm](/assets/img/study-guides/digital-systems/axi_read.png){:.centered}
 
-<p align="center">
-    <img src="/assets/img/study-guides/digital-systems/axi_write.png">
-</p>
+![axi-sm](/assets/img/study-guides/digital-systems/axi_write.png){:.centered}
 
 **Write Address Channel (AXI4-Lite)**
 
