@@ -347,7 +347,7 @@ For a given value $$k$$, the probability of this value is $$f_k[k] = \text{Pr}[K
 
 Consider $$f_k[k]$$ the ranking of weights of each possible outcome. If an outcome is more probable, it is heavier, and plotted above the others.
 
-![pmf](/assets/img/study-guides/probability/pmf.png){:.centered}
+![pmf](/assets/img/study-guides/probability/pmf.png)
 
 Probability Mass Function
 {:.figcaption}
@@ -366,7 +366,7 @@ As shown in earlier sections, there are $$n\choose{k}$$ possible variations of $
 
 Geometric RVs concern a wait for an event to happen. Should the expected event be given $$p$$ probability, there will be $$k$$ consecutive $$(1-p)$$ events before the $$p$$ occurs. Therefore, as seen in the graph below, the event occuring at the second transmission will be $$(1-p)^2p$$.
 
-![geo1](/assets/img/study-guides/probability/geo1.png){:.centered}
+![geo1](/assets/img/study-guides/probability/geo1.png)
 
 Geometric Random Variable
 {:.figcaption}
@@ -403,7 +403,7 @@ When all events are equally likely, the probability of each can be found easily 
 Uniform Distribution
 {:.figcaption}
 
-![uniform](/assets/img/study-guides/probability/uniform.png){:.centered}
+![uniform](/assets/img/study-guides/probability/uniform.png)
 
 ### Continous RVs and Their Distributions
 
@@ -411,7 +411,7 @@ For values which can take on a continuum of values, such as voltage, velocity, a
 
 By this notation we can see that by following the graph from left to right, the probability of the event occuring to the **left** of value $$x$$ will be found by the amplitude of the CDF at that value. Therefore, as $$x \rightarrow \infty$$, $$F_x \rightarrow 1$$.
 
-![cdf](/assets/img/study-guides/probability/cdf.png){:.centered}
+![cdf](/assets/img/study-guides/probability/cdf.png)
 
 When finding the probability of a value occurring between points $$a$$ and $$b$$, their CDF values can be used. Remember this is **Distribution**, not **Density**, as we'll see in the PDF below. By keeping this straight, their purposes should be easy to remember.
 
@@ -424,7 +424,7 @@ CDF Probability Within a Range (b $$>$$ a)
 
 The *Probability Density Function* or **PDF** is a derivative of the CDF that can also be used to find this probability:
 
-![pdf1](/assets/img/study-guides/probability/pdf1.png){:.centered}
+![pdf1](/assets/img/study-guides/probability/pdf1.png)
 
 \begin{equation}
     \text{Pr}[a < X \leq b] = \int_{b}^{a}f_X(x)dx 
@@ -465,7 +465,7 @@ The Gaussian or "normal" random variable arises naturally in numerous cases. It 
 The Gaussian PDF
 {:.figcaption}
 
-![gauss](/assets/img/study-guides/probability/gauss.png){:.centered}
+![gauss](/assets/img/study-guides/probability/gauss.png)
 
 The square of the standard deviation, $$\sigma ^2$$ is known as the variance, and is a measure of the total width of the bell between these points.
 
@@ -497,7 +497,7 @@ The Gaussian Q Function
 
 When a value $$x$$ is sought which is less than $$\mu$$, the argument of the $$Q$$ function will be negative, and define the left tail of the CDF. $$Q(-x) = 1 - Q(x)$$.
 
-![q1](/assets/img/study-guides/probability/q1.png){:.centered}
+![q1](/assets/img/study-guides/probability/q1.png)
 
 \begin{equation}
     \text{Pr}[X < x] = Q(\frac{x - \mu}{\sigma})
@@ -513,7 +513,7 @@ The Gaussian Q Function
 The Gaussian Q Function with Negative Argument
 {:.figcaption}
 
-![q2](/assets/img/study-guides/probability/q2.png){:.centered}
+![q2](/assets/img/study-guides/probability/q2.png)
 
 
 $$\text{Pr}[a \leq x \leq b] = Q(\frac{b-\mu}{\sigma}) - Q(\frac{a-\mu}{\sigma})$$
@@ -631,9 +631,9 @@ For continuous distributions, the variables $$x$$ and $$y$$ will be used, howeve
 
 From each joint distribution, individual distributions for each variable, or \textbf{Marginal Distributions} can be found. These are simply the PDFs of the individual random variables found in earlier sections.
 
-![marginal](/assets/img/study-guides/probability/marginal.png){:.centered}
+![marginal](/assets/img/study-guides/probability/marginal.png)
 
-![marginal2](/assets/img/study-guides/probability/marginal2.png){:.centered}
+![marginal2](/assets/img/study-guides/probability/marginal2.png)
 
 $$f_{K_1}[k_1] = \sum\limits_{k2=-\infty}^\infty f_{K_1K_2}[k_1,k_2]$$
 
@@ -653,7 +653,7 @@ Notice that this is a special condition for random variables and does not apply 
 
 #### Joint Distributions
 
-![joint-cdf](/assets/img/study-guides/probability/joint-cdf.png){:.centered}
+![joint-cdf](/assets/img/study-guides/probability/joint-cdf.png)
 
 **CDF**: $$f_{X_1X_2}(x_1,x_2) = \frac{\partial^2F_{X_1X_2}(x_1,x_2) }{\partial x_1 \partial x_2}$$
  
@@ -669,7 +669,7 @@ $$f_{X_1}(x_1) = \int_{-\infty}^{\infty} f_{X_1X_2}(x_1,x_2)dx_2$$
 
 $$f_{X_2}(x_2) = \int_{-\infty}^{\infty} f_{X_1X_2}(x_1,x_2)dx_1$$
 
-![marginal-pdf](/assets/img/study-guides/probability/marginal-pdf.png){:.centered}
+![marginal-pdf](/assets/img/study-guides/probability/marginal-pdf.png)
 
 #### Correlation
 
@@ -785,7 +785,7 @@ $$
 
 Two joint RVs with Gaussian characteristics together will have a joint Gaussian characteristic, called *bivariate* or *multi-variate* for more than 2.
 
-![bivariate](/assets/img/study-guides/probability/bivariate.png){:.centered}
+![bivariate](/assets/img/study-guides/probability/bivariate.png)
 
 ## Limit Theorems
 

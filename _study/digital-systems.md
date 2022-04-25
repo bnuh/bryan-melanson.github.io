@@ -66,7 +66,7 @@ ROMs were intended as memory devices (such as cartridges) but could be used for 
 
 Programmable Logic Arrays (PLA) are based on the notion that any logic function is a combination of product terms OR'd together.
 
-![Programmable Logic Array](/assets/img/study-guides/digital-systems/pla.png){:.centered}
+![Programmable Logic Array](/assets/img/study-guides/digital-systems/pla.png)
 ### FPGAs
 
 Field Programmable Gate Arrays are flexible programmable logic for larger designs. Complicated to program, but offer large capacities and flexibility.
@@ -119,39 +119,39 @@ Transport will delay the signals without rejecting.
 
 **Architecture** is a description of the internals.
 
-![VHDL](/assets/img/study-guides/digital-systems/vhdl.png){:.centered}
+![VHDL](/assets/img/study-guides/digital-systems/vhdl.png)
 
 The devices can be reused in separate files by declaring it as a component and instantiating each element individually, assigning pins.
 
-![VHDL2](/assets/img/study-guides/digital-systems/vhdl2.png){:.centered}
+![VHDL2](/assets/img/study-guides/digital-systems/vhdl2.png)
 
 ### Sequential Statements
 
 The **process** statement will monitor a signal using a sensitivity list and trigger a sequence of lines to be completed in order.
 
-![process](/assets/img/study-guides/digital-systems/process.png){:.centered}
+![process](/assets/img/study-guides/digital-systems/process.png)
 
 ### Flip Flops
 
-![flipflops](/assets/img/study-guides/digital-systems/flipflops.png){:.centered}
+![flipflops](/assets/img/study-guides/digital-systems/flipflops.png)
 
 ### Conditional Assignments
 
-![condition](/assets/img/study-guides/digital-systems/condition.png){:.centered}
+![condition](/assets/img/study-guides/digital-systems/condition.png)
 
-![case](/assets/img/study-guides/digital-systems/case.png){:.centered}
+![case](/assets/img/study-guides/digital-systems/case.png)
 
 ### User Defined Types
 
-![types](/assets/img/study-guides/digital-systems/types.png){:.centered}
+![types](/assets/img/study-guides/digital-systems/types.png)
 
-![shifts](/assets/img/study-guides/digital-systems/shifts.png){:.centered}
+![shifts](/assets/img/study-guides/digital-systems/shifts.png)
 
 ## Advanced Design
 
 ### Logic Minimization
 
-![logic](/assets/img/study-guides/digital-systems/logic.png){:.centered}
+![logic](/assets/img/study-guides/digital-systems/logic.png)
 
 $$y - A'BC + AB'C + ABC' + ABC$$ can be reduced to **minterms**.  
 
@@ -167,13 +167,13 @@ This reduces the SSOP form to a minimum sum of products by eliminating as many l
 
 Recall $$XY + XY' = X$$ - use this to combine minterms if they differ in one minterm. Terms are then represented as binary, for example $$AB'CD' = 1010$$, so $$AB'CD' + AB'CD = AB'C$$ or $$101-$$.
 
-![quine](/assets/img/study-guides/digital-systems/quine.png){:.centered}
+![quine](/assets/img/study-guides/digital-systems/quine.png)
 
 The numbers which don't reduce to the following column or are redundant are \textit{prime implicants}. In this case, the prime implicants are $$0-01$$, $$01-1$$, $$011-$$, $$-00-$$, $$-0-0$$, and $$--10$$.
 
-![implicants](/assets/img/study-guides/digital-systems/implicants.png){:.centered}
+![implicants](/assets/img/study-guides/digital-systems/implicants.png)
 
-![implicants2](/assets/img/study-guides/digital-systems/implicants2.png){:.centered}
+![implicants2](/assets/img/study-guides/digital-systems/implicants2.png)
 
 Choose the values with a single X in its column, then draw a horizontal line through the row. Any intersections, draw a vertical line. Continue until all X are crossed out, choosing values which will cover off as much as possible.
 
@@ -193,7 +193,7 @@ A circuit goes 1 when it should be constant 0
 
 When the circuit should transition from 0 to 1 or 1 to 0, but transitions three or more times
 
-![hazard](/assets/img/study-guides/digital-systems/hazard.png){:.centered}
+![hazard](/assets/img/study-guides/digital-systems/hazard.png)
 
 <p align="center">
     <img src="/assets/img/study-guides/digital-systems/hazard.png">
@@ -201,7 +201,7 @@ When the circuit should transition from 0 to 1 or 1 to 0, but transitions three 
 
 Select inputs to test specific port errors:
 
-![test](/assets/img/study-guides/digital-systems/test.png){:.centered}
+![test](/assets/img/study-guides/digital-systems/test.png)
 
 ### Scan Testing
 
@@ -219,7 +219,7 @@ AMBA has four interface protocols, *AXI* (Advanced Extemsible Interface), *AHB* 
 
 **AXI4-Lite** is a subset of AXI4 used for simpler control register style interfaces. All transactions are burst legnths of 1, data accesses are the same size and width as the data bus, and exclusive access is not supported.
 
-![axi](/assets/img/study-guides/digital-systems/axi.png){:.centered}
+![axi](/assets/img/study-guides/digital-systems/axi.png)
 
 **Channel** is a collection of signals associated to a VALID signal.
 
@@ -241,7 +241,7 @@ An AXI4 handshake is as follows:
 * If the transaction has more than 1 transfer, next data is sent, otherwise VALID is removed
 * If slave cannot accept, READY is removed to pause
 
-![handshake](/assets/img/study-guides/digital-systems/handshake.png){:.centered}
+![handshake](/assets/img/study-guides/digital-systems/handshake.png)
 
 AXI4 and variants all have 5 basic signalling channels:
 
@@ -251,13 +251,13 @@ AXI4 and variants all have 5 basic signalling channels:
 * Write data
 * Write response (Slave to Master)
 
-![axi-sm](/assets/img/study-guides/digital-systems/axi-sm.png){:.centered}
+![axi-sm](/assets/img/study-guides/digital-systems/axi-sm.png)
 
 For AXI-Lite, only 1 data tranfer per transaction.
 
-![axi-sm](/assets/img/study-guides/digital-systems/axi_read.png){:.centered}
+![axi-sm](/assets/img/study-guides/digital-systems/axi_read.png)
 
-![axi-sm](/assets/img/study-guides/digital-systems/axi_write.png){:.centered}
+![axi-sm](/assets/img/study-guides/digital-systems/axi_write.png)
 
 **Write Address Channel (AXI4-Lite)**
 
