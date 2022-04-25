@@ -128,7 +128,7 @@ Each node in the linked list consists of its data, and a pointer to the next obj
 
 ### Deleting
 
-![circularlinkedlist](/assets/img/study-guides/data-structures/circularlinkedlist.png)
+![circularlinkedlist](/assets/img/study-guides/data-structures/circularlinkedlist.jpg)
 
 ## Doubly Linked List
 
@@ -218,7 +218,7 @@ def bfs(self):
 
 ## Binary Search Tree
 
-![binarysearchtree](/assets/img/study-guides/data-structures/binarysearchtree.png)
+![binarysearchtree](/assets/img/study-guides/data-structures/binarysearchtree.jpg)
 
 A Binary Search Tree is one in which the value of the node stored on the left is less than the value of root, and the value of the node on the right is greater than the value of the root. By organizing a tree in this way, values can easily be found using a similar method as binary search which eliminates half of the remaining possibilities at each step.
 
@@ -369,7 +369,7 @@ int pop()
 
 ## Hashes
 
-![hash](/assets/img/study-guides/data-structures/hash.png)
+![hash](/assets/img/study-guides/data-structures/hash.jpg)
 
 A hash map combines features of a static array and a linked list, without being bound by issues such as inserting new values in a size-defined array, or searching for values in a linked list. A hash map has a preallocated buffer, and uses the value of the data to be inserted to generate a key, or index by hashing it. If a hash is properly defined, there will be no hash collisions, and data with an indentical value will be stored in the identical spot in the hash map. This way, a value need only be calculated once, then stored in the hash map. Insted of generating the value again by calculation, the value can be retrieved from the hash map by visiting the pre-determined index.
 
