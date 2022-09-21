@@ -11,7 +11,7 @@ grouped: true
 ```c
 while (1) {
   if (!will_attend_class) {
-    study();
+    make_study_guides();
   }
 }
 ```
