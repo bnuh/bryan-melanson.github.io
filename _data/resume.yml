@@ -4,16 +4,12 @@
 basics:
   name: "Bryan Melanson"
   label: "Embedded Developer"
-  picture: "assets/img/profile.jpg"
   email: "bryan@bryanmelanson.com"
   phone: "(709) 749-1273"
   website: "https://bryanmelanson.com"
   summary: >
-    B.Eng in Computer Engineering from Memorial Univeristy of Newfoundland with a strong background in embedded development and a unique skill set in the creative arts. Practical experience in robotics, data science and firmware development including Mission Control design of Killick-1 GNSS CubeSat set to launch in 2021, and as well as the Mysa Smart Baseboard Thermostat, Smart Infloor Thermostat and Smart Air Conditioner. Skills include RTOS, I2C, NFC, C/C++, GDB, Logic Analyzers, Rust, Python and Bluetooth.
+    B.Eng in Computer Engineering from Memorial Univeristy of Newfoundland with a strong background in embedded development and a unique skill set in the creative arts. Practical experience in robotics, data science and firmware development including Mission Control design of Killick-1 GNSS CubeSat set to launch in 2021, and as well as the Mysa Smart Baseboard Thermostat, Smart Infloor Thermostat and Smart Air Conditioner. Skills include RTOS, NFC, C/C++, GDB, Assembly, React, Rust, Python and Bluetooth.
   location:
-    address: "30 Cox Marsh Road"
-    postalCode: "A1K 1A2"
-    city: "Torbay"
     countryCode: "CA"
     region: "Newfoundland"
   profiles:
